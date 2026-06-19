@@ -1,4 +1,4 @@
-﻿import atexit
+import atexit
 from datetime import datetime, timedelta, timezone
 from groq import Groq
 from telegram import Update, ReplyKeyboardMarkup
@@ -319,6 +319,33 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
             await update.message.reply_text("Iltimos, tanlang: Ha, chiqaman yoki Yo'q, davom etaman.")
             return
 
+        if context.user_data.get("awaiting_delete_confirmation"):
+            if text == "Ha, o'chirilsin":
+                course_id = context.user_data.get("delete_course_id") or get_current_course_id(update, context)
+                if course_id:
+                    try:
+                        db.delete_course_forever(update.effective_user.id, int(course_id))
+                    except Exception:
+                        logger.exception("Failed to permanently delete course %s for user %s", course_id, update.effective_user.id)
+                        await update.message.reply_text("⚠️ Kursni o'chirishda xato yuz berdi.")
+                        context.user_data.pop("awaiting_delete_confirmation", None)
+                        context.user_data.pop("delete_course_id", None)
+                        return
+                context.user_data.pop("awaiting_delete_confirmation", None)
+                context.user_data.pop("delete_course_id", None)
+                await update.message.reply_text("Kurs butunlay o'chirildi. /start ni bosing")
+                await start(update, context)
+                return
+
+            if text == "Yo'q, bekor qilaman":
+                context.user_data.pop("awaiting_delete_confirmation", None)
+                context.user_data.pop("delete_course_id", None)
+                await update.message.reply_text("Bekor qilindi.", reply_markup=lesson_keyboard(context))
+                return
+
+            await update.message.reply_text("Iltimos, tanlang: Ha, o'chirilsin yoki Yo'q, bekor qilaman.")
+            return
+
         if context.user_data.get("awaiting_resume_choice"):
             if text == "YES":
                 session = context.user_data.get("resume_session")
@@ -381,12 +408,17 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 return
 
             if course_action == "delete":
-                try:
-                    db.delete_course(update.effective_user.id, selected_course_id)
-                except Exception:
-                    logger.exception("Failed to delete course %s for user %s", selected_course_id, update.effective_user.id)
-                await update.message.reply_text("Kurs bekor qilindi. /start ni bosing")
-                await start(update, context)
+                # Ask for permanent deletion confirmation before removing data
+                context.user_data["awaiting_delete_confirmation"] = True
+                context.user_data["delete_course_id"] = selected_course_id
+                keyboard = ReplyKeyboardMarkup(
+                    [["Ha, o'chirilsin"], ["Yo'q, bekor qilaman"]],
+                    resize_keyboard=True,
+                )
+                await update.message.reply_text(
+                    "Kursni butunlay o'chirishni xohlaysizmi? Bu amal qaytarib bo'lmaydi.",
+                    reply_markup=keyboard,
+                )
                 return
 
         if text == "📖 CONTINUE LESSON":
