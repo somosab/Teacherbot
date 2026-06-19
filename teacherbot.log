@@ -1,0 +1,142 @@
+2026-06-19 15:49:21,228 [INFO] __main__: ✅ Teacher Bot is running
+2026-06-19 15:49:22,254 [INFO] __main__: Unhandled text from user 7793346625: ⚙️ SETTINGS
+2026-06-19 15:49:22,404 [INFO] database: Upserted user 7793346625 fields=['lang', 'last_active']
+2026-06-19 15:49:32,404 [INFO] __main__: Starting session for user 7793346625
+2026-06-19 15:49:34,989 [INFO] database: Upserted user 7793346625 fields=['lang', 'last_active']
+2026-06-19 15:49:36,142 [INFO] database: Upserted user 7793346625 fields=['lang', 'last_active']
+2026-06-19 15:49:37,577 [INFO] database: Upserted user 7793346625 fields=['lang', 'last_active']
+2026-06-19 15:49:38,485 [INFO] database: Upserted user 7793346625 fields=['lang', 'fan', 'last_active']
+2026-06-19 15:49:39,762 [INFO] database: Upserted user 7793346625 fields=['lang', 'fan', 'daraja', 'last_active']
+2026-06-19 15:49:40,751 [INFO] database: Upserted user 7793346625 fields=['lang', 'fan', 'daraja', 'maqsad', 'last_active']
+2026-06-19 15:49:41,528 [INFO] database: Created course 1 for user 7793346625
+2026-06-19 15:49:44,753 [INFO] database: Upserted user 7793346625 fields=['lang', 'fan', 'daraja', 'maqsad', 'vaqt', 'kun', 'current_post', 'lesson_total_posts', 'last_lesson', 'last_active']
+2026-06-19 15:49:44,772 [INFO] database: Saved course lesson 1 for course 1 day 1 post 1
+2026-06-19 15:49:44,796 [INFO] database: Saved legacy lesson for user 7793346625 kun=1 fan=Python
+2026-06-19 15:49:44,969 [INFO] database: Upserted user 7793346625 fields=['lang', 'fan', 'daraja', 'maqsad', 'vaqt', 'kun', 'current_post', 'lesson_total_posts', 'last_lesson', 'last_active']
+2026-06-19 15:49:55,595 [INFO] database: Updated course progress for course 1 kun=1 post=1 status=ACTIVE
+2026-06-19 15:49:55,628 [INFO] database: Paused course 1 for user 7793346625
+2026-06-19 15:49:56,222 [INFO] __main__: Starting session for user 7793346625
+2026-06-19 15:49:59,784 [INFO] __main__: Starting session for user 7793346625
+2026-06-19 15:50:02,650 [INFO] database: Upserted user 7793346625 fields=['lang', 'last_active']
+2026-06-19 15:50:03,902 [INFO] database: Upserted user 7793346625 fields=['lang', 'last_active']
+2026-06-19 15:50:04,884 [INFO] database: Upserted user 7793346625 fields=['lang', 'last_active']
+2026-06-19 15:50:05,744 [INFO] database: Upserted user 7793346625 fields=['lang', 'fan', 'last_active']
+2026-06-19 15:50:07,111 [INFO] database: Upserted user 7793346625 fields=['lang', 'fan', 'daraja', 'last_active']
+2026-06-19 15:50:07,975 [INFO] database: Upserted user 7793346625 fields=['lang', 'fan', 'daraja', 'maqsad', 'last_active']
+2026-06-19 15:50:08,340 [INFO] database: Created course 2 for user 7793346625
+2026-06-19 15:50:11,047 [INFO] database: Upserted user 7793346625 fields=['lang', 'fan', 'daraja', 'maqsad', 'vaqt', 'kun', 'current_post', 'lesson_total_posts', 'last_lesson', 'last_active']
+2026-06-19 15:50:11,069 [INFO] database: Saved course lesson 2 for course 2 day 1 post 1
+2026-06-19 15:50:11,090 [INFO] database: Saved legacy lesson for user 7793346625 kun=1 fan=Python
+2026-06-19 15:50:11,255 [INFO] database: Upserted user 7793346625 fields=['lang', 'fan', 'daraja', 'maqsad', 'vaqt', 'kun', 'current_post', 'lesson_total_posts', 'last_lesson', 'last_active']
+2026-06-19 15:50:14,110 [INFO] __main__: Starting session for user 7793346625
+2026-06-19 15:50:18,227 [INFO] database: Paused course 2 for user 7793346625
+2026-06-19 15:50:18,352 [INFO] __main__: Starting session for user 7793346625
+2026-06-19 15:50:23,543 [INFO] __main__: Starting session for user 7793346625
+2026-06-19 15:50:36,855 [INFO] __main__: Starting session for user 7793346625
+2026-06-19 15:50:37,197 [INFO] database: Upserted user 7793346625 fields=['lang', 'last_active']
+2026-06-19 15:50:41,680 [INFO] database: Upserted user 7793346625 fields=['lang', 'last_active']
+2026-06-19 15:50:42,161 [INFO] database: Upserted user 7793346625 fields=['lang', 'last_active']
+2026-06-19 15:50:42,809 [INFO] database: Upserted user 7793346625 fields=['lang', 'last_active']
+2026-06-19 15:50:43,237 [INFO] database: Upserted user 7793346625 fields=['lang', 'fan', 'last_active']
+2026-06-19 15:50:44,105 [INFO] database: Upserted user 7793346625 fields=['lang', 'fan', 'daraja', 'last_active']
+2026-06-19 15:50:44,708 [INFO] database: Upserted user 7793346625 fields=['lang', 'fan', 'daraja', 'maqsad', 'last_active']
+2026-06-19 15:50:45,016 [INFO] database: Created course 3 for user 7793346625
+2026-06-19 15:50:47,698 [INFO] database: Upserted user 7793346625 fields=['lang', 'fan', 'daraja', 'maqsad', 'vaqt', 'kun', 'current_post', 'lesson_total_posts', 'last_lesson', 'last_active']
+2026-06-19 15:50:47,719 [INFO] database: Saved course lesson 3 for course 3 day 1 post 1
+2026-06-19 15:50:47,743 [INFO] database: Saved legacy lesson for user 7793346625 kun=1 fan=Python
+2026-06-19 15:50:47,885 [INFO] database: Upserted user 7793346625 fields=['lang', 'fan', 'daraja', 'maqsad', 'vaqt', 'kun', 'current_post', 'lesson_total_posts', 'last_lesson', 'last_active']
+2026-06-19 15:50:47,924 [INFO] database: Created course 4 for user 7793346625
+2026-06-19 15:50:50,675 [INFO] database: Upserted user 7793346625 fields=['lang', 'fan', 'daraja', 'maqsad', 'vaqt', 'kun', 'current_post', 'lesson_total_posts', 'last_lesson', 'last_active']
+2026-06-19 15:50:50,696 [INFO] database: Saved course lesson 4 for course 4 day 1 post 1
+2026-06-19 15:50:50,715 [INFO] database: Saved legacy lesson for user 7793346625 kun=1 fan=Python
+2026-06-19 15:50:50,865 [INFO] database: Upserted user 7793346625 fields=['lang', 'fan', 'daraja', 'maqsad', 'vaqt', 'kun', 'current_post', 'lesson_total_posts', 'last_lesson', 'last_active']
+2026-06-19 15:50:50,865 [INFO] __main__: Starting session for user 7793346625
+2026-06-19 15:50:59,932 [INFO] database: Paused course 4 for user 7793346625
+2026-06-19 15:51:00,767 [INFO] __main__: Starting session for user 7793346625
+2026-06-19 15:51:06,596 [INFO] database: Paused course 3 for user 7793346625
+2026-06-19 15:51:06,925 [INFO] __main__: Starting session for user 7793346625
+2026-06-19 15:51:10,326 [INFO] database: Upserted user 7793346625 fields=['lang', 'last_active']
+2026-06-19 15:51:10,871 [INFO] database: Upserted user 7793346625 fields=['lang', 'last_active']
+2026-06-19 15:51:11,305 [INFO] database: Upserted user 7793346625 fields=['lang', 'last_active']
+2026-06-19 15:51:11,787 [INFO] database: Upserted user 7793346625 fields=['lang', 'fan', 'last_active']
+2026-06-19 15:51:12,292 [INFO] database: Upserted user 7793346625 fields=['lang', 'fan', 'daraja', 'last_active']
+2026-06-19 15:51:12,710 [INFO] database: Upserted user 7793346625 fields=['lang', 'fan', 'daraja', 'maqsad', 'last_active']
+2026-06-19 15:51:13,009 [INFO] database: Created course 5 for user 7793346625
+2026-06-19 15:51:15,370 [INFO] database: Upserted user 7793346625 fields=['lang', 'fan', 'daraja', 'maqsad', 'vaqt', 'kun', 'current_post', 'lesson_total_posts', 'last_lesson', 'last_active']
+2026-06-19 15:51:15,391 [INFO] database: Saved course lesson 5 for course 5 day 1 post 1
+2026-06-19 15:51:15,410 [INFO] database: Saved legacy lesson for user 7793346625 kun=1 fan=Python
+2026-06-19 15:51:15,602 [INFO] database: Upserted user 7793346625 fields=['lang', 'fan', 'daraja', 'maqsad', 'vaqt', 'kun', 'current_post', 'lesson_total_posts', 'last_lesson', 'last_active']
+2026-06-19 15:51:15,643 [INFO] database: Created course 6 for user 7793346625
+2026-06-19 15:51:17,625 [INFO] database: Upserted user 7793346625 fields=['lang', 'fan', 'daraja', 'maqsad', 'vaqt', 'kun', 'current_post', 'lesson_total_posts', 'last_lesson', 'last_active']
+2026-06-19 15:51:17,647 [INFO] database: Saved course lesson 6 for course 6 day 1 post 1
+2026-06-19 15:51:17,668 [INFO] database: Saved legacy lesson for user 7793346625 kun=1 fan=Python
+2026-06-19 15:51:17,813 [INFO] database: Upserted user 7793346625 fields=['lang', 'fan', 'daraja', 'maqsad', 'vaqt', 'kun', 'current_post', 'lesson_total_posts', 'last_lesson', 'last_active']
+2026-06-19 15:51:17,853 [INFO] database: Created course 7 for user 7793346625
+2026-06-19 15:51:20,084 [INFO] database: Upserted user 7793346625 fields=['lang', 'fan', 'daraja', 'maqsad', 'vaqt', 'kun', 'current_post', 'lesson_total_posts', 'last_lesson', 'last_active']
+2026-06-19 15:51:20,105 [INFO] database: Saved course lesson 7 for course 7 day 1 post 1
+2026-06-19 15:51:20,123 [INFO] database: Saved legacy lesson for user 7793346625 kun=1 fan=Python
+2026-06-19 15:51:20,286 [INFO] database: Upserted user 7793346625 fields=['lang', 'fan', 'daraja', 'maqsad', 'vaqt', 'kun', 'current_post', 'lesson_total_posts', 'last_lesson', 'last_active']
+2026-06-19 15:51:20,328 [INFO] database: Created course 8 for user 7793346625
+2026-06-19 15:51:22,904 [INFO] database: Upserted user 7793346625 fields=['lang', 'fan', 'daraja', 'maqsad', 'vaqt', 'kun', 'current_post', 'lesson_total_posts', 'last_lesson', 'last_active']
+2026-06-19 15:51:22,926 [INFO] database: Saved course lesson 8 for course 8 day 1 post 1
+2026-06-19 15:51:22,946 [INFO] database: Saved legacy lesson for user 7793346625 kun=1 fan=Python
+2026-06-19 15:51:23,266 [INFO] database: Upserted user 7793346625 fields=['lang', 'fan', 'daraja', 'maqsad', 'vaqt', 'kun', 'current_post', 'lesson_total_posts', 'last_lesson', 'last_active']
+2026-06-19 15:51:23,313 [INFO] database: Created course 9 for user 7793346625
+2026-06-19 15:51:25,758 [INFO] database: Upserted user 7793346625 fields=['lang', 'fan', 'daraja', 'maqsad', 'vaqt', 'kun', 'current_post', 'lesson_total_posts', 'last_lesson', 'last_active']
+2026-06-19 15:51:25,780 [INFO] database: Saved course lesson 9 for course 9 day 1 post 1
+2026-06-19 15:51:25,798 [INFO] database: Saved legacy lesson for user 7793346625 kun=1 fan=Python
+2026-06-19 15:51:25,945 [INFO] database: Upserted user 7793346625 fields=['lang', 'fan', 'daraja', 'maqsad', 'vaqt', 'kun', 'current_post', 'lesson_total_posts', 'last_lesson', 'last_active']
+2026-06-19 15:51:29,522 [INFO] database: Abandoned course 9 for user 7793346625
+2026-06-19 15:51:29,643 [INFO] __main__: Starting session for user 7793346625
+2026-06-19 15:51:32,687 [INFO] database: Abandoned course 9 for user 7793346625
+2026-06-19 15:51:32,805 [INFO] __main__: Starting session for user 7793346625
+2026-06-19 15:51:35,331 [INFO] database: Abandoned course 9 for user 7793346625
+2026-06-19 15:51:35,453 [INFO] __main__: Starting session for user 7793346625
+2026-06-19 15:51:36,592 [INFO] database: Abandoned course 9 for user 7793346625
+2026-06-19 15:51:36,706 [INFO] __main__: Starting session for user 7793346625
+2026-06-19 15:51:40,274 [INFO] __main__: Starting session for user 7793346625
+2026-06-19 15:51:42,410 [INFO] database: Paused course 8 for user 7793346625
+2026-06-19 15:51:42,544 [INFO] __main__: Starting session for user 7793346625
+2026-06-19 15:51:46,171 [INFO] database: Paused course 7 for user 7793346625
+2026-06-19 15:51:46,301 [INFO] __main__: Starting session for user 7793346625
+2026-06-19 15:51:48,728 [INFO] database: Abandoned course 9 for user 7793346625
+2026-06-19 15:51:48,877 [INFO] __main__: Starting session for user 7793346625
+2026-06-19 15:51:53,512 [INFO] database: Upserted user 7793346625 fields=['fan', 'daraja', 'maqsad', 'vaqt', 'kun', 'current_post', 'lesson_total_posts', 'last_lesson', 'last_active']
+2026-06-19 15:51:53,513 [INFO] database: Course lesson already exists course=7 kun=1 post=1
+2026-06-19 15:51:53,532 [INFO] database: Saved legacy lesson for user 7793346625 kun=1 fan=Python
+2026-06-19 15:51:56,980 [INFO] database: Abandoned course 7 for user 7793346625
+2026-06-19 15:51:57,167 [INFO] __main__: Starting session for user 7793346625
+2026-06-19 15:52:02,537 [INFO] database: Upserted user 7793346625 fields=['fan', 'daraja', 'maqsad', 'vaqt', 'kun', 'current_post', 'lesson_total_posts', 'last_lesson', 'last_active']
+2026-06-19 15:52:02,538 [INFO] database: Course lesson already exists course=8 kun=1 post=1
+2026-06-19 15:52:02,556 [INFO] database: Saved legacy lesson for user 7793346625 kun=1 fan=Python
+2026-06-19 15:52:04,822 [INFO] database: Upserted user 7793346625 fields=['fan', 'daraja', 'maqsad', 'vaqt', 'kun', 'current_post', 'lesson_total_posts', 'last_lesson', 'last_active']
+2026-06-19 15:52:04,823 [INFO] database: Course lesson already exists course=8 kun=1 post=1
+2026-06-19 15:52:04,843 [INFO] database: Saved legacy lesson for user 7793346625 kun=1 fan=Python
+2026-06-19 15:52:06,349 [INFO] database: Abandoned course 8 for user 7793346625
+2026-06-19 15:52:06,475 [INFO] __main__: Starting session for user 7793346625
+2026-06-19 15:52:08,088 [INFO] database: Paused course 6 for user 7793346625
+2026-06-19 15:52:08,220 [INFO] __main__: Starting session for user 7793346625
+2026-06-19 15:52:13,343 [INFO] database: Upserted user 7793346625 fields=['fan', 'daraja', 'maqsad', 'vaqt', 'kun', 'current_post', 'lesson_total_posts', 'last_lesson', 'last_active']
+2026-06-19 15:52:13,344 [INFO] database: Course lesson already exists course=6 kun=1 post=1
+2026-06-19 15:52:13,364 [INFO] database: Saved legacy lesson for user 7793346625 kun=1 fan=Python
+2026-06-19 15:52:17,042 [INFO] database: Abandoned course 6 for user 7793346625
+2026-06-19 15:52:17,163 [INFO] __main__: Starting session for user 7793346625
+2026-06-19 15:52:19,490 [INFO] __main__: Unhandled text from user 7793346625: ⚙️ SETTINGS
+2026-06-19 15:55:00,375 [INFO] __main__: ✅ Teacher Bot is running
+2026-06-19 15:55:10,880 [INFO] __main__: Starting session for user 7793346625
+2026-06-19 15:55:13,097 [INFO] database: Upserted user 7793346625 fields=['lang', 'last_active']
+2026-06-19 15:55:13,826 [INFO] database: Upserted user 7793346625 fields=['lang', 'last_active']
+2026-06-19 15:55:14,719 [INFO] database: Upserted user 7793346625 fields=['lang', 'last_active']
+2026-06-19 15:55:15,541 [INFO] database: Upserted user 7793346625 fields=['lang', 'fan', 'last_active']
+2026-06-19 15:55:16,508 [INFO] database: Upserted user 7793346625 fields=['lang', 'fan', 'daraja', 'last_active']
+2026-06-19 15:55:17,402 [INFO] database: Upserted user 7793346625 fields=['lang', 'fan', 'daraja', 'maqsad', 'last_active']
+2026-06-19 15:55:18,017 [INFO] database: Created course 1 for user 7793346625
+2026-06-19 15:55:20,965 [INFO] database: Upserted user 7793346625 fields=['lang', 'fan', 'daraja', 'maqsad', 'vaqt', 'kun', 'current_post', 'lesson_total_posts', 'last_lesson', 'last_active']
+2026-06-19 15:55:20,982 [INFO] database: Saved course lesson 1 for course 1 day 1 post 1
+2026-06-19 15:55:20,997 [INFO] database: Saved legacy lesson for user 7793346625 kun=1 fan=Python
+2026-06-19 15:55:21,154 [INFO] database: Upserted user 7793346625 fields=['lang', 'fan', 'daraja', 'maqsad', 'vaqt', 'kun', 'current_post', 'lesson_total_posts', 'last_lesson', 'last_active']
+2026-06-19 15:55:24,628 [INFO] database: Updated course progress for course 1 kun=1 post=1 status=ACTIVE
+2026-06-19 15:55:24,782 [INFO] database: Upserted user 7793346625 fields=['lang', 'fan', 'daraja', 'maqsad', 'vaqt', 'kun', 'current_post', 'lesson_total_posts', 'next_day_unlock', 'last_lesson', 'last_active']
+2026-06-19 15:55:26,644 [INFO] __main__: Starting session for user 7793346625
+2026-06-19 15:55:33,683 [INFO] __main__: Starting session for user 7793346625
+2026-06-19 15:55:38,613 [INFO] __main__: Starting session for user 7793346625
