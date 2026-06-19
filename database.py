@@ -1,4 +1,4 @@
-﻿import json
+import json
 import sqlite3
 from datetime import datetime
 from pathlib import Path
@@ -448,6 +448,24 @@ class Database:
         )
         self.record_session(user_id, course_id, "DELETE_COURSE")
         logger.info("Abandoned course %s for user %s", course_id, user_id)
+
+    def delete_course_forever(self, user_id: int, course_id: int) -> None:
+        """Permanently remove a course and all related records from the database.
+
+        This deletes rows from course_lessons, course_progress, quiz_answers, user_sessions
+        and finally removes the row from user_courses. It is irreversible.
+        """
+        # Delete dependent records first
+        try:
+            self.execute("DELETE FROM course_lessons WHERE course_id = ?", (course_id,))
+            self.execute("DELETE FROM course_progress WHERE course_id = ?", (course_id,))
+            self.execute("DELETE FROM quiz_answers WHERE course_id = ?", (course_id,))
+            self.execute("DELETE FROM user_sessions WHERE course_id = ?", (course_id,))
+            # Remove the course record
+            self.execute("DELETE FROM user_courses WHERE course_id = ? AND user_id = ?", (course_id, user_id))
+            logger.info("Permanently deleted course %s for user %s", course_id, user_id)
+        except Exception:
+            logger.exception("Failed to permanently delete course %s for user %s", course_id, user_id)
 
     def record_session(
         self,
