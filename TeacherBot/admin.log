@@ -1,0 +1,41 @@
+2026-06-20 15:26:15,993 - INFO - HTTP Request: POST https://api.telegram.org/bot8801988495:AAHjCvsWCl_8Q1z4l4k66lX03CmnV8Yfrdw/getMe "HTTP/1.1 401 Unauthorized"
+2026-06-20 15:26:15,994 - ERROR - Network Retry Loop (Bootstrap Initialize Application): Invalid token. Aborting retry loop.
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\_bot.py", line 865, in initialize
+    await self.get_me()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_extbot.py", line 2040, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\_bot.py", line 1005, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.InvalidToken: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 136, in do_action
+    await action_cb()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_extbot.py", line 324, in initialize
+    await super().initialize()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\_bot.py", line 868, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `8801988495:AAHjCvsWCl_8Q1z4l4k66lX03CmnV8Yfrdw` was rejected by the server.
