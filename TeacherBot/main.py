@@ -1,4 +1,4 @@
-﻿import atexit
+import atexit
 import asyncio
 import threading
 import time
@@ -693,6 +693,9 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
             await send_lesson(update, context, understood=False)
 
         elif text == get_text(lang, "next_lesson", kun=context.user_data.get("kun", 2)):
+            # Starting the next day lesson should reset post progress and clear the lock.
+            context.user_data["current_post"] = 1
+            context.user_data.pop("next_day_unlock", None)
             await send_lesson(update, context, understood=True)
 
         elif text == get_text(lang, "ask"):
